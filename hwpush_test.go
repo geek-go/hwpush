@@ -16,7 +16,7 @@ var Cfg = &HwpushConfig{
 
 //测试单推
 func TestHwPush_SendByCid(t *testing.T) {
-	igetui, err := NewHuawei(Cfg)
+	hwpush, err := NewHuawei(Cfg)
 	if err != nil {
 		t.Error(err)
 		os.Exit(1)
@@ -24,7 +24,7 @@ func TestHwPush_SendByCid(t *testing.T) {
 
 	cid := "xxx"
 	payLoad := Payload{"这是测试title", "这是测试内容", "1", ""}
-	err = igetui.SendByCid(cid, &payLoad)
+	err = hwpush.SendByCid(cid, &payLoad)
 	if err != nil {
 		t.Error(err)
 	} else {
@@ -34,7 +34,7 @@ func TestHwPush_SendByCid(t *testing.T) {
 
 //测试群推
 func TestHwPush_SendByCids(t *testing.T) {
-	igetui, err := NewHuawei(Cfg)
+	hwpush, err := NewHuawei(Cfg)
 	if err != nil {
 		t.Error(err)
 		os.Exit(1)
@@ -42,7 +42,7 @@ func TestHwPush_SendByCids(t *testing.T) {
 
 	cids := []string{"xxx"}
 	payLoad := Payload{"这是测试title", "这是测试内容", "1", ""}
-	err = igetui.SendByCids(cids, &payLoad)
+	err = hwpush.SendByCids(cids, &payLoad)
 	if err != nil {
 		t.Error(err)
 	} else {
