@@ -33,6 +33,10 @@ go test -v  -run="^TestHwPush_SendByCids$"
 
 > 测试用例里针对SDK进行了一些封装，大家可以参考快速实现。
 
+## 文档参考
+
+https://godoc.org/github.com/geek-go/hwpush
+
 ## 如何参与该项目
 
 如果需要增加个推其它接口的实现，请参考`push_send`实现。规范：
