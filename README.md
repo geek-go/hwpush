@@ -1,8 +1,8 @@
 # hwpush
 华为push
 
-![build=passing][https://img.shields.io/badge/build-passing-brightgreen.svg?maxAge=2592000]  
-[![Software License][https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square]](LICENSE.md)   
+![](https://img.shields.io/badge/build-passing-brightgreen.svg?maxAge=2592000)
+![](https://img.shields.io/badge/license-MIT-brightgreen.svg) 
 [![GoDoc](https://godoc.org/github.com/geek-go/hwpush?status.svg)](https://godoc.org/github.com/geek-go/hwpush)
 
 由于官方没有推出Go版本的推送SDK，故自己实现了。支持：
