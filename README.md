@@ -2,7 +2,7 @@
 华为push
 
 [![GoDoc](https://godoc.org/github.com/geek-go/hwpush?status.svg)](https://godoc.org/github.com/geek-go/hwpush)
-[![build=passing][ico-build]
+![build=passing][ico-build]
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
