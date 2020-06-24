@@ -3,7 +3,6 @@
 
 ![](https://img.shields.io/badge/build-passing-brightgreen.svg?maxAge=2592000)
 [![Software License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/geek-go/hwpush?status.svg)](https://godoc.org/github.com/geek-go/hwpush)
 
 由于官方没有推出Go版本的推送SDK，故自己实现了。支持：
 
@@ -35,7 +34,7 @@ go test -v  -run="^TestHwPush_SendByCids$"
 
 ## 文档参考
 
-https://godoc.org/github.com/geek-go/hwpush
+https://pkg.go.dev/github.com/geek-go/hwpush
 
 ## 如何参与该项目
 
